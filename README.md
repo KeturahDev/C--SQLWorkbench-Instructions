@@ -49,6 +49,24 @@ Download the .zip file and extract all files into directory of your choice OR cl
     );
 
     ```
+    
+    ```
+    CREATE SCHEMA `john_smith` ;
+    USE john_smith;
+    CREATE TABLE `john_smith`.`shoes` (
+      `shoeid` INT NOT NULL,
+      `heel` VARCHAR(45) NULL,
+      PRIMARY KEY (`shoeid`)
+      );
+  
+    CREATE TABLE `john_smith`.`kjsadhfglk` (
+      `idkjsadhfglk` INT NOT NULL,
+      PRIMARY KEY (`idkjsadhfglk`)
+      );
+
+    ```
+    
+    
 5. Create appsettings.json, and add this code into it:
     ```
     {
