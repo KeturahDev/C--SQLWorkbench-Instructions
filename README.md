@@ -95,8 +95,7 @@ Download the .zip file and extract all files into directory of your choice OR cl
 
 ### MySQL Database Structure
 
-![Project Database Structure](https://github.com/keturahdev/Bestaurants/Bestaurants/images/db.Structure.png "Project FDB Structure")
-<img src="https://github.com/keturahdev/Bestaurants/Bestaurants/images/db.Structure.png" />
+![Screen Shot 2021-05-19 at 8 41 56 PM](https://user-images.githubusercontent.com/32975967/118915951-e50ebc80-b8e2-11eb-8018-e5e41ccecddd.png)
 
 ## Technologies Used
 
