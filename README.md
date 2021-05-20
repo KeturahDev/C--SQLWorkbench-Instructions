@@ -49,12 +49,21 @@ Download the .zip file and extract all files into directory of your choice OR cl
     );
 
     ```
-5. Compile and Run code:
+5. Create appsettings.json, and add this code into it:
+    ```
+    {
+        "ConnectionStrings": {
+            "DefaultConnection": "Server=localhost;Port=3306;database=Firstname_Lastname;uid=root;pwd=[YOUR-PASSWORD-HERE];"
+        }
+    }
+    ```
+    
+6. Compile and Run code:
     ```
     dotnet build
     dotnet run
     ```
-6. Open the locally hosted server in your preferred web browser:
+7 Open the locally hosted server in your preferred web browser:
     ```
     start http://localhost:5000
     ```
